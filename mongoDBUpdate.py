@@ -8,7 +8,7 @@ accounts_collection = db.accounts
 # Filter
 document_to_update = {"_id": ObjectId("62d6e04ecab6d8e130497482")}
 
-# Update
+# Update single collection
 add_to_balance = {"$inc": {"balance": 100}}
 
 # Print original document
